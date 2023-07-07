@@ -1,0 +1,32 @@
+.btn-login {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  height: 51px;
+  justify-content: center;
+  position: relative;
+  width: 468px;
+}
+
+.btn-login .acessar {
+  color: #ffffff;
+  font-family: var(--title-large-font-family);
+  font-size: var(--title-large-font-size);
+  font-style: var(--title-large-font-style);
+  font-weight: var(--title-large-font-weight);
+  letter-spacing: var(--title-large-letter-spacing);
+  line-height: var(--title-large-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.btn-login.default {
+  background-color: #7f46b6;
+}
+
+.btn-login.variant-2 {
+  background-color: var(--on-primary-container);
+}

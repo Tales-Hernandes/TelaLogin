@@ -1,0 +1,189 @@
+.icon-button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+}
+
+.icon-button .container {
+  align-items: center;
+  border-radius: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-button .state-layer {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.icon-button .icon {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}
+
+.icon-button.enabled.filled {
+  padding: 4px;
+}
+
+.icon-button.outlined.enabled {
+  padding: 8px;
+}
+
+.icon-button.tonal.disabled {
+  padding: 8px;
+}
+
+.icon-button.outlined.disabled {
+  padding: 8px;
+}
+
+.icon-button.standard.disabled {
+  opacity: 0.38;
+}
+
+.icon-button.disabled.filled {
+  padding: 8px;
+}
+
+.icon-button.outlined .container {
+  border: 1px solid;
+}
+
+.icon-button.tonal.hovered .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.focused.filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.enabled.tonal .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.enabled.filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.pressed.tonal .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.outlined.pressed .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.hovered.filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.outlined.focused .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.outlined.enabled .container {
+  border-color: var(--m-3syslightoutline);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.tonal.disabled .container {
+  background-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.outlined.disabled .container {
+  border-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.pressed.filled .container {
+  background-color: var(--m-3syslightprimary);
+}
+
+.icon-button.outlined.hovered .container {
+  border-color: var(--m-3syslightoutline);
+}
+
+.icon-button.focused.tonal .container {
+  background-color: var(--m3syslightsecondary-container);
+}
+
+.icon-button.disabled.filled .container {
+  background-color: var(--m3state-layerslighton-surfaceopacity-012);
+  margin-bottom: -4px;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+
+.icon-button.tonal.hovered .state-layer {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-008);
+}
+
+.icon-button.focused.standard .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.focused.filled .state-layer {
+  background-color: var(--m3state-layerslighton-primaryopacity-012);
+}
+
+.icon-button.pressed.tonal .state-layer {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-012);
+}
+
+.icon-button.outlined.pressed .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.hovered.filled .state-layer {
+  background-color: var(--m3state-layerslighton-primaryopacity-008);
+}
+
+.icon-button.outlined.focused .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.pressed.standard .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-012);
+}
+
+.icon-button.pressed.filled .state-layer {
+  background-color: var(--m3state-layerslighton-primaryopacity-012);
+}
+
+.icon-button.outlined.hovered .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-008);
+}
+
+.icon-button.standard.hovered .state-layer {
+  background-color: var(--m3state-layerslighton-surface-variantopacity-008);
+}
+
+.icon-button.focused.tonal .state-layer {
+  background-color: var(--m3state-layerslighton-secondary-containeropacity-012);
+}
